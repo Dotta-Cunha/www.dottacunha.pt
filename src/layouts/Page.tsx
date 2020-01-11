@@ -9,6 +9,10 @@ interface PageProps {
 
 const globalStyles = css`
   ${emotionReset}
+
+  * {
+    box-sizing: border-box;
+  }
 `
 
 export const Page = ({ children }: PageProps) => (
