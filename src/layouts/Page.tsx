@@ -22,7 +22,7 @@ export const Page = ({ children }: PageProps) => (
       link={[
         {
           rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css?family=Megrim&display=swap',
+          href: 'https://fonts.googleapis.com/css2?family=Megrim&family=Open+Sans:wght@300&display=swap',
         },
       ]}
     />

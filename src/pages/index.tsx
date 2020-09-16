@@ -12,22 +12,54 @@ const Center = styled.div`
   transform: translate(-50%, -50%);
 `
 
-const Headline = styled.h1`
+const Heading = styled.h1`
   margin: 0;
-  font-size: 42px;
+  font-size: 12vw;
   font-weight: normal;
   font-family: 'Megrim', cursive;
   text-align: center;
+  line-height: 1.2;
 
-  @media (min-width: 480px) {
-    font-size: 64px;
+  @media (min-width: 768px) {
+    font-size: 90px;
+  }
+`
+
+const Subheading = styled.h2`
+  margin: 0;
+  font-size: 4vw;
+  font-weight: 300;
+  font-family: 'Open Sans', sans;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 40px;
+
+  @media (min-width: 768px) {
+    font-size: 30px;
+  }
+`
+
+const Text = styled.p`
+  margin: 0;
+  font-size: 2vw;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
   }
 `
 
 const IndexPage = () => (
   <Page>
     <Center>
-      <Headline>Dotta & Cunha</Headline>
+      <Heading>Dotta & Cunha</Heading>
+      <Subheading>Real Estate Investments</Subheading>
+
+      <Text>partners@dottacunha.pt</Text>
     </Center>
   </Page>
 )
